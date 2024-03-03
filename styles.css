@@ -1,0 +1,12 @@
+body {
+    max-width:800px;
+    margin:0 auto;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+small {
+    font-weight: lighter;
+}
