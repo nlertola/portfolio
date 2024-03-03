@@ -11,6 +11,50 @@
   <p>Hello. My name is Nick. If I had time to make an awesome portfolio, I would.</p>
   <p>Unfortunately, I do not</p>
   <p>This is my best work</p>
-  <p>Email me: <a href="mailto:nlertola@live.com">at my email</a></p>
+  <p>
+    Email me: <a href="mailto:nlertola@live.com">at my email</a>
+    and check out some of my sweet projects:
+  </p>
+  <ul>
+    <li>
+      <a href="https://resumebuddy.ai" target="_blank">Resume Buddy</a> is a service used for 
+      storing all of your professional experience. My algorithm will build a 
+      resume based on a job description and your most closely correlated experience 
+      bullet points. As a bonus I incorporated GPT-4 support to rewrite or "professionalize"
+      your bullet points and write cover letters for you using your own experiences. You can 
+      also practice with a mock interview tailored to a specific job position.
+      <br />
+      <small>Tech Used: .NET 6, Blazor WASM, MySQL, AWS EB, Route53, RDS, OpenAI API</small>
+    </li>
+    <li>
+      <a href="https://qmot.tv" target="_blank">Quote Me On That</a> is a real time group game played 
+      by hosting a game on one monitor (<a href="https://qmot.tv/host" target="_blank">use this link to host a new game</a>)
+      and having each participant join the game on their phone/laptops. Each player is given a prompt 
+      to answer and each round a selected "critic" will vote on which response they find the funniest.
+      This game is best played in groups of 4-10 people.
+      <br />
+      <small>Tech Used: .NET 6, React, Redis, SignalR, AWS EB, Route53</small>
+    </li>
+    <li>
+      <a href="https://intinker.com" target="_blank">Intinker</a> is a 3D printer optimization
+      company which I co-founded in 2020 (left in 2022). We created an iterative printing and scoring system 
+      and utilized ML to decide new and better slicer settings for your specific printer each print.
+      I wrote the web application, interfacing for the ML algorithm, and database design/creation.
+      <br />
+      <small>Tech Used: .NET Core 3.1, Blazor Server, MySQL, Javascript, AWS EB, Route53, RDS, Flask, Stripe API</small>
+    </li>
+  </ul>
 </body>
+<style>
+  body {
+    max-width:800px;
+    margin:0 auto;
+  }
+  li {
+    margin-bottom: 20px;
+  }
+  small {
+    font-weight: lighter;
+  }
+</style>
 </html>
